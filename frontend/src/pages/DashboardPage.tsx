@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { 
   Box, 
   Typography, 
-  Container, 
+  // Container, - Removed unused import 
   Paper, 
   Button,
   TextField,
@@ -11,12 +11,12 @@ import {
   DialogContent,
   DialogTitle,
   IconButton,
-  Card,
-  CardContent,
+  // Card, - Removed unused import
+  // CardContent, - Removed unused import
   List,
   ListItem,
   ListItemText,
-  ListItemIcon
+  // ListItemIcon - Removed unused import
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

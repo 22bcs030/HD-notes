@@ -15,7 +15,8 @@ import { authService } from '../services/api';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import dayjs, { Dayjs } from 'dayjs';
+// Removed unused dayjs import but keep the type
+import type { Dayjs } from 'dayjs';
 import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
 
 const SignupPage: React.FC = () => {
@@ -25,11 +26,11 @@ const SignupPage: React.FC = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [dob, setDob] = useState<Dayjs | null>(null);
-  const [isOtpSent, setIsOtpSent] = useState(false);
+  // Using viewMode state instead of isOtpSent for conditional rendering
+  const [viewMode, setViewMode] = useState<'form' | 'otp'>('form');
   const [otp, setOtp] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [viewMode, setViewMode] = useState<'form' | 'otp'>('form');
 
   // Validate form
   const validateForm = () => {
@@ -66,7 +67,6 @@ const SignupPage: React.FC = () => {
       
       // Send OTP to the user's email
       await authService.sendOTP(email);
-      setIsOtpSent(true);
       setViewMode('otp');
       setError('');
     } catch (error: any) {
