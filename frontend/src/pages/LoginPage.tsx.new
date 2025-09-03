@@ -1,0 +1,264 @@
+import React, { useState } from 'react';
+import { 
+  Box, 
+  Typography, 
+  TextField, 
+  Button, 
+  CircularProgress,
+  Link
+} from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+import { authService } from '../services/api';
+import { useAuth } from '../context/AuthContext';
+
+const LoginPage: React.FC = () => {
+  const navigate = useNavigate();
+  const { login } = useAuth();
+  
+  const [email, setEmail] = useState('');
+  const [otp, setOtp] = useState('');
+  const [showOtpField, setShowOtpField] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+  
+  // Handle email and OTP submission
+  const handleSendOtp = async () => {
+    if (!email || !validateEmail(email)) {
+      setError('Please enter a valid email address');
+      return;
+    }
+    
+    try {
+      setLoading(true);
+      await authService.sendOTP(email);
+      setShowOtpField(true);
+      setError('');
+    } catch (error: any) {
+      setError(error.response?.data?.message || 'Failed to send OTP. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  const handleVerifyOtp = async () => {
+    if (!otp) {
+      setError('Please enter the OTP sent to your email');
+      return;
+    }
+    
+    try {
+      setLoading(true);
+      const response = await authService.verifyOTP(email, otp);
+      login(response.data);
+      navigate('/dashboard');
+    } catch (error: any) {
+      setError(error.response?.data?.message || 'Invalid OTP. Please try again.');
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  // Email validation function
+  const validateEmail = (email: string) => {
+    return /\S+@\S+\.\S+/.test(email);
+  };
+  
+  // Switch to signup page
+  const goToSignup = () => {
+    navigate('/signup');
+  };
+
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        height: '100vh',
+        bgcolor: '#ffffff'
+      }}
+    >
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          width: '100%',
+          maxWidth: { xs: '100%', sm: '500px' },
+          mx: 'auto',
+          p: 3
+        }}
+      >
+        {/* HD Logo */}
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            mb: 6,
+            mt: 2,
+            alignSelf: 'flex-start'
+          }}
+        >
+          <Box
+            component="img"
+            src="/assets/hd-logo.svg"
+            alt="HD Logo"
+            sx={{ 
+              width: 40,
+              height: 40,
+              color: '#1976d2'
+            }}
+          />
+          <Typography 
+            variant="h5" 
+            component="span" 
+            sx={{ 
+              ml: 1, 
+              fontWeight: 'bold',
+              color: '#000'
+            }}
+          >
+            HD
+          </Typography>
+        </Box>
+
+        {/* Login form */}
+        <Box sx={{ width: '100%', maxWidth: 400, mx: 'auto' }}>
+          <Typography variant="h4" fontWeight="bold" mb={1}>
+            Sign in
+          </Typography>
+          
+          <Typography variant="body1" color="text.secondary" mb={4}>
+            Please login to continue to your account.
+          </Typography>
+
+          {error && (
+            <Typography 
+              variant="body2" 
+              color="error" 
+              sx={{ mb: 2 }}
+            >
+              {error}
+            </Typography>
+          )}
+          
+          {!showOtpField ? (
+            <>
+              <Typography variant="body2" mb={0.5} color="text.secondary">
+                Email
+              </Typography>
+              <TextField
+                fullWidth
+                placeholder="your_email@example.com"
+                variant="outlined"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                sx={{ mb: 3 }}
+                InputProps={{
+                  sx: { borderRadius: 1 }
+                }}
+              />
+              
+              <Button
+                fullWidth
+                variant="contained"
+                onClick={handleSendOtp}
+                disabled={loading}
+                sx={{ 
+                  mt: 1, 
+                  py: 1.5, 
+                  borderRadius: 2,
+                  bgcolor: '#3366ff',
+                  '&:hover': {
+                    bgcolor: '#2952cc',
+                  }
+                }}
+              >
+                {loading ? <CircularProgress size={24} color="inherit" /> : 'Get OTP'}
+              </Button>
+            </>
+          ) : (
+            <>
+              <Typography variant="body2" mb={2}>
+                Please enter the OTP sent to {email}
+              </Typography>
+              
+              <TextField
+                fullWidth
+                placeholder="Enter OTP"
+                variant="outlined"
+                value={otp}
+                onChange={(e) => setOtp(e.target.value)}
+                sx={{ mb: 3 }}
+                InputProps={{
+                  sx: { borderRadius: 1 }
+                }}
+              />
+              
+              <Button
+                fullWidth
+                variant="contained"
+                onClick={handleVerifyOtp}
+                disabled={loading}
+                sx={{ 
+                  mt: 1, 
+                  py: 1.5, 
+                  borderRadius: 2,
+                  bgcolor: '#3366ff',
+                  '&:hover': {
+                    bgcolor: '#2952cc',
+                  }
+                }}
+              >
+                {loading ? <CircularProgress size={24} color="inherit" /> : 'Sign In'}
+              </Button>
+              
+              <Box sx={{ mt: 2, textAlign: 'center' }}>
+                <Button 
+                  variant="text" 
+                  onClick={handleSendOtp}
+                  sx={{ 
+                    color: '#3366ff',
+                    textTransform: 'none'
+                  }}
+                >
+                  Resend OTP
+                </Button>
+              </Box>
+            </>
+          )}
+          
+          <Box sx={{ mt: 2, textAlign: 'center' }}>
+            <Typography variant="body2" color="text.secondary">
+              Need an account?{' '}
+              <Link
+                component="button"
+                variant="body2"
+                onClick={goToSignup}
+                sx={{ 
+                  color: '#3366ff',
+                  textDecoration: 'none',
+                  fontWeight: 'medium'
+                }}
+              >
+                Create one
+              </Link>
+            </Typography>
+          </Box>
+        </Box>
+      </Box>
+      
+      {/* Right blue wave background - only visible on medium and larger screens */}
+      <Box
+        sx={{
+          display: { xs: 'none', md: 'block' },
+          width: '60%',
+          backgroundImage: 'url(/assets/wave-bg.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+    </Box>
+  );
+};
+
+export default LoginPage;
