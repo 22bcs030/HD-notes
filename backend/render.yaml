@@ -3,7 +3,7 @@ services:
   - type: web
     name: login-backend
     env: node
-    buildCommand: chmod +x render-setup.sh && ./render-setup.sh
+    buildCommand: bash render-setup.sh
     startCommand: npm start
     envVars:
       - key: NODE_ENV
