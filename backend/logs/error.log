@@ -1,0 +1,769 @@
+[2025-09-03T16:54:58.477Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/send-otp'
+[2025-09-03T16:54:58.478Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/send-otp'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/send-otp'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/verify-otp'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/verify-otp'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/verify-otp'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.479Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/google'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/google'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/google'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/profile'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/profile'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/profile'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/profile'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.550Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/'
+[2025-09-03T16:54:58.551Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/:id'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/:id'
+[2025-09-03T16:54:58.552Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/:id'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/:id'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route delete '/:id'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route delete '/:id'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.564Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/email'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/email'
+[2025-09-03T16:54:58.565Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route post '/email'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.581Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/last-email-url'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/last-email-url'
+[2025-09-03T16:54:58.582Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/last-email-url'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.606Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:application set "x-powered-by" to true
+[2025-09-03T16:54:58.608Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:application set "etag" to 'weak'
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "etag fn" to [Function: generateETag]
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "env" to 'development'
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "query parser" to 'extended'
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "subdomain offset" to 2
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "trust proxy" to false
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Wed, 03 Sep 2025 16:54:58 GMT express:application booting in development mode
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "view" to [Function: View]
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "views" to 'C:\\Users\\amit2\\OneDrive\\Desktop\\dev\\assingment\\LogIn\\backend\\views'
+Wed, 03 Sep 2025 16:54:58 GMT express:application set "jsonp callback name" to 'callback'
+[2025-09-03T16:54:58.608Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/' query
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router use '/' expressInit
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.608Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/' corsMiddleware
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.609Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/' jsonParser
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.609Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/' urlencodedParser
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:54:58.609Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/api/auth' router
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/api/auth'
+Wed, 03 Sep 2025 16:54:58 GMT express:router use '/api/notes' router
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/api/notes'
+Wed, 03 Sep 2025 16:54:58 GMT express:router use '/api/test' router
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/api/test'
+[2025-09-03T16:54:58.609Z] ERROR: Wed, 03 Sep 2025 16:54:58 GMT express:router use '/api/dev' router
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/api/dev'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:route get '/'
+Wed, 03 Sep 2025 16:54:58 GMT express:router:layer new '/'
+[2025-09-03T16:55:43.044Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router dispatching OPTIONS /api/auth/send-otp
+[2025-09-03T16:55:43.045Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router query  : /api/auth/send-otp
+[2025-09-03T16:55:43.045Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router expressInit  : /api/auth/send-otp
+[2025-09-03T16:55:43.046Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T16:55:43.051Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T16:55:43.051Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT express:router jsonParser  : /api/auth/send-otp
+[2025-09-03T16:55:43.051Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT body-parser:json content-type "application/json"
+[2025-09-03T16:55:43.052Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT body-parser:json content-encoding "identity"
+[2025-09-03T16:55:43.052Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT body-parser:json read body
+[2025-09-03T16:55:43.077Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT body-parser:json parse body
+[2025-09-03T16:55:43.077Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT body-parser:json parse json
+Wed, 03 Sep 2025 16:55:43 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT body-parser:urlencoded body already parsed
+[2025-09-03T16:55:43.080Z] ERROR: Wed, 03 Sep 2025 16:55:43 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 16:55:43 GMT express:router dispatching POST /send-otp
+[2025-09-03T16:56:18.169Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+[2025-09-03T16:56:18.169Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T16:56:18.171Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T16:56:18.171Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T16:56:18.171Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json read body
+[2025-09-03T16:56:18.172Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT body-parser:json parse body
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json parse json
+[2025-09-03T16:56:18.172Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router urlencodedParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 16:56:18 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching POST /verify-otp
+[2025-09-03T16:56:18.227Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/notes
+[2025-09-03T16:56:18.228Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:56:18.230Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T16:56:18.231Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:56:18.233Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 16:56:18 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:urlencoded skip empty body
+[2025-09-03T16:56:18.234Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching GET /
+[2025-09-03T16:56:18.263Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching GET /api/notes
+[2025-09-03T16:56:18.264Z] ERROR: Wed, 03 Sep 2025 16:56:18 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 16:56:18 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 16:56:18 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:56:18 GMT express:router dispatching GET /
+[2025-09-03T16:56:28.619Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T16:56:28.621Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:56:28.622Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router dispatching POST /api/notes
+[2025-09-03T16:56:28.622Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:56:28.623Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:json read body
+[2025-09-03T16:56:28.623Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT body-parser:json parse body
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:json parse json
+Wed, 03 Sep 2025 16:56:28 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 16:56:28 GMT express:router trim prefix (/api/notes) from url /api/notes
+[2025-09-03T16:56:28.623Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router dispatching POST /
+[2025-09-03T16:56:28.648Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router dispatching GET /api/notes
+[2025-09-03T16:56:28.648Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 16:56:28 GMT express:router urlencodedParser  : /api/notes
+[2025-09-03T16:56:28.650Z] ERROR: Wed, 03 Sep 2025 16:56:28 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 16:56:28 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:56:28 GMT express:router dispatching GET /
+[2025-09-03T16:58:28.076Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router query  : /api/notes
+[2025-09-03T16:58:28.078Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:58:28.079Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:58:28.086Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T16:58:28.086Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 16:58:28 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 16:58:28 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching GET /
+[2025-09-03T16:58:28.103Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router expressInit  : /api/notes
+[2025-09-03T16:58:28.104Z] ERROR: Wed, 03 Sep 2025 16:58:28 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 16:58:28 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 16:58:28 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 16:58:28 GMT express:router dispatching GET /
+[2025-09-03T17:01:35.548Z] ERROR: Wed, 03 Sep 2025 17:01:35 GMT express:router dispatching GET /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:35 GMT express:router query  : /api/api/dev/last-email-url
+[2025-09-03T17:01:35.548Z] ERROR: Wed, 03 Sep 2025 17:01:35 GMT express:router expressInit  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:35 GMT express:router corsMiddleware  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:35 GMT express:router jsonParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:35 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:01:35 GMT express:router urlencodedParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:35 GMT body-parser:urlencoded skip empty body
+[2025-09-03T17:01:35.565Z] ERROR: Wed, 03 Sep 2025 17:01:35 GMT finalhandler default 404
+[2025-09-03T17:01:37.505Z] ERROR: Wed, 03 Sep 2025 17:01:37 GMT express:router dispatching GET /api/api/dev/last-email-url
+[2025-09-03T17:01:37.505Z] ERROR: Wed, 03 Sep 2025 17:01:37 GMT express:router query  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:37 GMT express:router expressInit  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:37 GMT express:router corsMiddleware  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:37 GMT express:router jsonParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:37 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:01:37 GMT express:router urlencodedParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:37 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:01:37 GMT finalhandler default 404
+[2025-09-03T17:01:38.074Z] ERROR: Wed, 03 Sep 2025 17:01:38 GMT express:router dispatching GET /api/api/dev/last-email-url
+[2025-09-03T17:01:38.074Z] ERROR: Wed, 03 Sep 2025 17:01:38 GMT express:router query  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router expressInit  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router corsMiddleware  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router jsonParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:01:38 GMT express:router urlencodedParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT body-parser:urlencoded skip empty body
+[2025-09-03T17:01:38.074Z] ERROR: Wed, 03 Sep 2025 17:01:38 GMT finalhandler default 404
+[2025-09-03T17:01:38.274Z] ERROR: Wed, 03 Sep 2025 17:01:38 GMT express:router dispatching GET /api/api/dev/last-email-url
+[2025-09-03T17:01:38.274Z] ERROR: Wed, 03 Sep 2025 17:01:38 GMT express:router query  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router expressInit  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router corsMiddleware  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT express:router jsonParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:01:38 GMT express:router urlencodedParser  : /api/api/dev/last-email-url
+Wed, 03 Sep 2025 17:01:38 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:01:38 GMT finalhandler default 404
+[2025-09-03T17:12:46.624Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT express:router dispatching OPTIONS /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:12:46.631Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT express:router dispatching POST /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:12:46 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:12:46 GMT body-parser:json read body
+[2025-09-03T17:12:46.637Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT body-parser:json parse body
+[2025-09-03T17:12:46.637Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT body-parser:json parse json
+[2025-09-03T17:12:46.638Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT express:router urlencodedParser  : /api/auth/send-otp
+[2025-09-03T17:12:46.639Z] ERROR: Wed, 03 Sep 2025 17:12:46 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:12:46 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:12:46 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:19:46.702Z] ERROR: Wed, 03 Sep 2025 17:19:46 GMT express:router dispatching OPTIONS /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:19:46.711Z] ERROR: Wed, 03 Sep 2025 17:19:46 GMT express:router dispatching POST /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:json read body
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:19:46 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:19:46 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:46 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:19:51.648Z] ERROR: Wed, 03 Sep 2025 17:19:51 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T17:19:51.650Z] ERROR: Wed, 03 Sep 2025 17:19:51 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:19:51 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:19:51 GMT body-parser:json read body
+[2025-09-03T17:19:51.655Z] ERROR: Wed, 03 Sep 2025 17:19:51 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:19:51 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:19:51 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:19:51 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:19:51 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:22:35.361Z] ERROR: Wed, 03 Sep 2025 17:22:35 GMT express:router dispatching OPTIONS /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:22:35.371Z] ERROR: Wed, 03 Sep 2025 17:22:35 GMT express:router dispatching POST /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:json read body
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:22:35 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:22:35 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:22:35 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:23:05.447Z] ERROR: Wed, 03 Sep 2025 17:23:05 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+[2025-09-03T17:23:05.448Z] ERROR: Wed, 03 Sep 2025 17:23:05 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T17:23:05.449Z] ERROR: Wed, 03 Sep 2025 17:23:05 GMT express:router dispatching POST /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:23:05 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:23:05 GMT body-parser:json read body
+[2025-09-03T17:23:05.450Z] ERROR: Wed, 03 Sep 2025 17:23:05 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:23:05 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:23:05 GMT express:router urlencodedParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:23:05 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:05 GMT express:router router /api/auth : /api/auth/verify-otp
+[2025-09-03T17:23:05.451Z] ERROR: Wed, 03 Sep 2025 17:23:05 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:23:07.243Z] ERROR: Wed, 03 Sep 2025 17:23:07 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T17:23:07.244Z] ERROR: Wed, 03 Sep 2025 17:23:07 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:23:07.245Z] ERROR: Wed, 03 Sep 2025 17:23:07 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:23:07 GMT body-parser:json read body
+[2025-09-03T17:23:07.245Z] ERROR: Wed, 03 Sep 2025 17:23:07 GMT body-parser:json parse body
+[2025-09-03T17:23:07.246Z] ERROR: Wed, 03 Sep 2025 17:23:07 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:23:07 GMT express:router urlencodedParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:23:07 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:07 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:23:20.133Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+[2025-09-03T17:23:20.134Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T17:23:20.134Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T17:23:20.134Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:23:20.134Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:json read body
+[2025-09-03T17:23:20.136Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT body-parser:json parse body
+[2025-09-03T17:23:20.136Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT body-parser:json parse json
+[2025-09-03T17:23:20.137Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router urlencodedParser  : /api/auth/verify-otp
+[2025-09-03T17:23:20.138Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:23:20 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:23:20.202Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:23:20.203Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:23:20.204Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:23:20.205Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:23:20.206Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:23:20.207Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:23:20 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:23:20 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router router /api/notes : /api/notes
+[2025-09-03T17:23:20.208Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching GET /
+[2025-09-03T17:23:20.266Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:23:20.267Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:23:20.267Z] ERROR: Wed, 03 Sep 2025 17:23:20 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:23:20 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:23:20 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:23:20 GMT express:router dispatching GET /
+[2025-09-03T17:24:16.827Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:24:16.827Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:24:16.829Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:24:16.829Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:24:16.830Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:24:16.837Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:24:16 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:24:16 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching GET /
+[2025-09-03T17:24:16.856Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router query  : /api/notes
+[2025-09-03T17:24:16.857Z] ERROR: Wed, 03 Sep 2025 17:24:16 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:24:16 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:24:16 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:24:16 GMT express:router dispatching GET /
+[2025-09-03T17:31:20.053Z] ERROR: Wed, 03 Sep 2025 17:31:20 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:31:20.076Z] ERROR: Wed, 03 Sep 2025 17:31:20 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:31:20 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:31:27.728Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router dispatching OPTIONS /api/auth/send-otp
+[2025-09-03T17:31:27.729Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:27 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:27 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:31:27.735Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T17:31:27.736Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:27 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:27 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:31:27.761Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:27 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:31:27.782Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT body-parser:json content-encoding "identity"
+[2025-09-03T17:31:27.782Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT body-parser:json read body
+[2025-09-03T17:31:27.789Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:31:27 GMT body-parser:json parse json
+[2025-09-03T17:31:27.793Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router urlencodedParser  : /api/auth/send-otp
+[2025-09-03T17:31:27.794Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT body-parser:urlencoded body already parsed
+[2025-09-03T17:31:27.795Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+[2025-09-03T17:31:27.795Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router router /api/auth : /api/auth/send-otp
+[2025-09-03T17:31:27.797Z] ERROR: Wed, 03 Sep 2025 17:31:27 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:31:56.032Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router dispatching OPTIONS /api/auth/send-otp
+[2025-09-03T17:31:56.032Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router expressInit  : /api/auth/send-otp
+[2025-09-03T17:31:56.033Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:31:56.034Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T17:31:56.034Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:31:56.034Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:31:56 GMT body-parser:json read body
+[2025-09-03T17:31:56.035Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:31:56 GMT body-parser:json parse json
+[2025-09-03T17:31:56.035Z] ERROR: Wed, 03 Sep 2025 17:31:56 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:31:56 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:31:56 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:32:22.384Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+[2025-09-03T17:32:22.384Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T17:32:22.386Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T17:32:22.386Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:32:22.387Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json read body
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json parse json
+[2025-09-03T17:32:22.387Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router urlencodedParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:32:22 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:32:22.446Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:32:22.447Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:32:22.453Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:32:22.453Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:32:22.455Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:32:22.455Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:32:22 GMT express:router urlencodedParser  : /api/notes
+[2025-09-03T17:32:22.455Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:32:22 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching GET /
+[2025-09-03T17:32:22.496Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:32:22.497Z] ERROR: Wed, 03 Sep 2025 17:32:22 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:32:22 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:32:22 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:32:22 GMT express:router dispatching GET /
+[2025-09-03T17:32:24.800Z] ERROR: Wed, 03 Sep 2025 17:32:24 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:32:24.801Z] ERROR: Wed, 03 Sep 2025 17:32:24 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:32:24 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:32:24 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router dispatching GET /
+[2025-09-03T17:32:24.816Z] ERROR: Wed, 03 Sep 2025 17:32:24 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:32:24.816Z] ERROR: Wed, 03 Sep 2025 17:32:24 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:32:24 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:32:24 GMT express:router trim prefix (/api/notes) from url /api/notes
+[2025-09-03T17:32:24.816Z] ERROR: Wed, 03 Sep 2025 17:32:24 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:32:24 GMT express:router dispatching GET /
+[2025-09-03T17:32:47.859Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT express:router dispatching OPTIONS /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router query  : /api/auth/send-otp
+[2025-09-03T17:32:47.860Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:32:47.860Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T17:32:47.861Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:32:47.861Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:32:47 GMT body-parser:json read body
+[2025-09-03T17:32:47.861Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:32:47 GMT body-parser:json parse json
+[2025-09-03T17:32:47.861Z] ERROR: Wed, 03 Sep 2025 17:32:47 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:32:47 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:32:47 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:33:03.883Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+[2025-09-03T17:33:03.883Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T17:33:03.885Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T17:33:03.885Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json read body
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:33:03 GMT express:router urlencodedParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:33:03 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:33:03.911Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:33:03.911Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:33:03.913Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:33:03.913Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:33:03.914Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:33:03 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:33:03 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching GET /
+[2025-09-03T17:33:03.922Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:33:03.924Z] ERROR: Wed, 03 Sep 2025 17:33:03 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:33:03 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:33:03 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:33:03 GMT express:router dispatching GET /
+[2025-09-03T17:33:05.997Z] ERROR: Wed, 03 Sep 2025 17:33:05 GMT express:router dispatching OPTIONS /api/notes/68b8733c87a442a9c38310b1
+[2025-09-03T17:33:05.997Z] ERROR: Wed, 03 Sep 2025 17:33:05 GMT express:router query  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router expressInit  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router corsMiddleware  : /api/notes/68b8733c87a442a9c38310b1
+[2025-09-03T17:33:05.998Z] ERROR: Wed, 03 Sep 2025 17:33:05 GMT express:router dispatching DELETE /api/notes/68b8733c87a442a9c38310b1
+[2025-09-03T17:33:05.999Z] ERROR: Wed, 03 Sep 2025 17:33:05 GMT express:router query  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router expressInit  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router corsMiddleware  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router jsonParser  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:33:05 GMT express:router urlencodedParser  : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:33:05 GMT express:router trim prefix (/api/notes) from url /api/notes/68b8733c87a442a9c38310b1
+[2025-09-03T17:33:05.999Z] ERROR: Wed, 03 Sep 2025 17:33:05 GMT express:router router /api/notes : /api/notes/68b8733c87a442a9c38310b1
+Wed, 03 Sep 2025 17:33:05 GMT express:router dispatching DELETE /68b8733c87a442a9c38310b1
+[2025-09-03T17:33:06.243Z] ERROR: Wed, 03 Sep 2025 17:33:06 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:33:06.243Z] ERROR: Wed, 03 Sep 2025 17:33:06 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:33:06 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:33:06 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:33:06 GMT express:router dispatching GET /
+[2025-09-03T17:33:43.492Z] ERROR: Wed, 03 Sep 2025 17:33:43 GMT express:router dispatching OPTIONS /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router query  : /api/auth/send-otp
+[2025-09-03T17:33:43.493Z] ERROR: Wed, 03 Sep 2025 17:33:43 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router corsMiddleware  : /api/auth/send-otp
+[2025-09-03T17:33:43.493Z] ERROR: Wed, 03 Sep 2025 17:33:43 GMT express:router dispatching POST /api/auth/send-otp
+[2025-09-03T17:33:43.494Z] ERROR: Wed, 03 Sep 2025 17:33:43 GMT express:router query  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router expressInit  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router corsMiddleware  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router jsonParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT body-parser:json content-type "application/json"
+[2025-09-03T17:33:43.495Z] ERROR: Wed, 03 Sep 2025 17:33:43 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:33:43 GMT body-parser:json read body
+Wed, 03 Sep 2025 17:33:43 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:33:43 GMT body-parser:json parse json
+Wed, 03 Sep 2025 17:33:43 GMT express:router urlencodedParser  : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:33:43 GMT express:router trim prefix (/api/auth) from url /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router router /api/auth : /api/auth/send-otp
+Wed, 03 Sep 2025 17:33:43 GMT express:router dispatching POST /send-otp
+[2025-09-03T17:34:01.627Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching OPTIONS /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/auth/verify-otp
+[2025-09-03T17:34:01.627Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/auth/verify-otp
+[2025-09-03T17:34:01.628Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching POST /api/auth/verify-otp
+[2025-09-03T17:34:01.628Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router jsonParser  : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json read body
+[2025-09-03T17:34:01.628Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT body-parser:json parse body
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json parse json
+[2025-09-03T17:34:01.629Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router urlencodedParser  : /api/auth/verify-otp
+[2025-09-03T17:34:01.629Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT body-parser:urlencoded body already parsed
+Wed, 03 Sep 2025 17:34:01 GMT express:router trim prefix (/api/auth) from url /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router router /api/auth : /api/auth/verify-otp
+Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching POST /verify-otp
+[2025-09-03T17:34:01.661Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching OPTIONS /api/notes
+[2025-09-03T17:34:01.661Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:34:01.662Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching GET /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/notes
+[2025-09-03T17:34:01.662Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:34:01 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:34:01 GMT express:router trim prefix (/api/notes) from url /api/notes
+[2025-09-03T17:34:01.662Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching GET /
+[2025-09-03T17:34:01.670Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:34:01.671Z] ERROR: Wed, 03 Sep 2025 17:34:01 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:34:01 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:34:01 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:34:01 GMT express:router dispatching GET /
+[2025-09-03T17:34:52.604Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router expressInit  : /api/notes
+[2025-09-03T17:34:52.605Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:34:52.606Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router dispatching POST /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router jsonParser  : /api/notes
+[2025-09-03T17:34:52.606Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT body-parser:json content-type "application/json"
+Wed, 03 Sep 2025 17:34:52 GMT body-parser:json content-encoding "identity"
+Wed, 03 Sep 2025 17:34:52 GMT body-parser:json read body
+[2025-09-03T17:34:52.606Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT body-parser:json parse body
+[2025-09-03T17:34:52.606Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT body-parser:json parse json
+[2025-09-03T17:34:52.612Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT body-parser:urlencoded body already parsed
+[2025-09-03T17:34:52.613Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router dispatching POST /
+[2025-09-03T17:34:52.644Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:34:52.644Z] ERROR: Wed, 03 Sep 2025 17:34:52 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:34:52 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:34:52 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:34:52 GMT express:router dispatching GET /
+[2025-09-03T17:36:10.327Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:36:10.333Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching OPTIONS /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router corsMiddleware  : /api/notes
+[2025-09-03T17:36:10.337Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:36:10.338Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:36:10 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT body-parser:urlencoded skip empty body
+[2025-09-03T17:36:10.342Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching GET /
+[2025-09-03T17:36:10.375Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching GET /api/notes
+[2025-09-03T17:36:10.377Z] ERROR: Wed, 03 Sep 2025 17:36:10 GMT express:router query  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router expressInit  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router corsMiddleware  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router jsonParser  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT body-parser:json skip empty body
+Wed, 03 Sep 2025 17:36:10 GMT express:router urlencodedParser  : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT body-parser:urlencoded skip empty body
+Wed, 03 Sep 2025 17:36:10 GMT express:router trim prefix (/api/notes) from url /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router router /api/notes : /api/notes
+Wed, 03 Sep 2025 17:36:10 GMT express:router dispatching GET /

@@ -1,0 +1,168 @@
+[2025-09-03T16:54:52.176Z] Server started with PID: 3280
+[2025-09-03T16:54:58.610Z] Initializing email service...
+[2025-09-03T16:54:58.610Z] Initializing email service...
+[2025-09-03T16:54:58.643Z] MongoDB Connected: localhost
+[2025-09-03T16:54:59.805Z] Email service initialized successfully with Gmail
+Using email account: amityadav841703@gmail.com
+[2025-09-03T16:54:59.810Z] Server running on port 8000
+[2025-09-03T16:55:43.080Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+Processing OTP request for email: gu6tthzpw8@vwhins.com
+Generated OTP: 297286
+OTP will expire at: Wed Sep 03 2025 22:35:43 GMT+0530 (India Standard Time)
+[2025-09-03T16:55:43.158Z] Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T16:55:43.204Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T16:55:43.204Z] Sending OTP to gu6tthzpw8@vwhins.com...
+Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T16:55:46.275Z] Email sent successfully, message ID: <af4eee8f-e94e-90bc-0ff3-b6408c837336@gmail.com>
+[2025-09-03T16:55:46.275Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T16:56:18.173Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '297286' }
+[2025-09-03T16:56:18.173Z] Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T16:56:18.176Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T16:56:18.177Z] User OTP data: {
+  storedOtp: '297286',
+  expiry: 2025-09-03T17:05:43.078Z,
+  receivedOtp: '297286',
+  isExpired: false
+}
+[2025-09-03T16:56:18.177Z] OTP verified successfully for user: 68b86e0594328abbc699ea2f
+[2025-09-03T17:12:46.648Z] Received sendOTP request with body: { email: 'amit123@gmail.com' }
+[2025-09-03T17:12:46.650Z] Processing OTP request for email: amit123@gmail.com
+Generated OTP: 695504
+[2025-09-03T17:12:46.651Z] OTP will expire at: Wed Sep 03 2025 22:52:46 GMT+0530 (India Standard Time)
+[2025-09-03T17:12:46.717Z] No user found with email: amit123@gmail.com, creating new temporary user
+[2025-09-03T17:12:46.762Z] Temporary user created with id: 68b8770e87a442a9c38310ba
+Sending OTP email to: amit123@gmail.com
+[2025-09-03T17:12:46.764Z] Sending OTP to amit123@gmail.com...
+Sending email from amityadav841703@gmail.com to amit123@gmail.com...
+[2025-09-03T17:12:49.923Z] Email sent successfully, message ID: <461e664e-f104-e2f6-41e5-3b57d9a34583@gmail.com>
+[2025-09-03T17:12:49.923Z] OTP email sent successfully to: amit123@gmail.com
+[2025-09-03T17:19:46.714Z] Received sendOTP request with body: { email: 'amit123@gmail.com' }
+Processing OTP request for email: amit123@gmail.com
+[2025-09-03T17:19:46.714Z] Generated OTP: 398225
+OTP will expire at: Wed Sep 03 2025 22:59:46 GMT+0530 (India Standard Time)
+[2025-09-03T17:19:46.803Z] Existing user found with email: amit123@gmail.com, updating OTP data
+[2025-09-03T17:19:46.849Z] Sending OTP email to: amit123@gmail.com
+[2025-09-03T17:19:46.849Z] Sending OTP to amit123@gmail.com...
+Sending email from amityadav841703@gmail.com to amit123@gmail.com...
+[2025-09-03T17:19:49.335Z] Email sent successfully, message ID: <d525db70-0b98-c508-f139-347917a2bd0c@gmail.com>
+[2025-09-03T17:19:49.335Z] OTP email sent successfully to: amit123@gmail.com
+[2025-09-03T17:19:51.655Z] Received sendOTP request with body: { email: 'amit123@gmail.com' }
+Processing OTP request for email: amit123@gmail.com
+[2025-09-03T17:19:51.655Z] Generated OTP: 153999
+OTP will expire at: Wed Sep 03 2025 22:59:51 GMT+0530 (India Standard Time)
+[2025-09-03T17:19:51.658Z] Existing user found with email: amit123@gmail.com, updating OTP data
+[2025-09-03T17:19:51.665Z] Sending OTP email to: amit123@gmail.com
+[2025-09-03T17:19:51.666Z] Sending OTP to amit123@gmail.com...
+Sending email from amityadav841703@gmail.com to amit123@gmail.com...
+[2025-09-03T17:19:54.379Z] Email sent successfully, message ID: <171bad79-c55f-e72c-3604-a57ae5bfa2b0@gmail.com>
+[2025-09-03T17:19:54.379Z] OTP email sent successfully to: amit123@gmail.com
+[2025-09-03T17:22:35.371Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+Processing OTP request for email: gu6tthzpw8@vwhins.com
+Generated OTP: 505046
+OTP will expire at: Wed Sep 03 2025 23:02:35 GMT+0530 (India Standard Time)
+[2025-09-03T17:22:35.437Z] Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T17:22:35.471Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:22:35.471Z] Sending OTP to gu6tthzpw8@vwhins.com...
+Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:22:37.938Z] Email sent successfully, message ID: <0ee2872e-8a28-ba32-b9eb-51da283f31b1@gmail.com>
+[2025-09-03T17:22:37.939Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:23:05.452Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '297286' }
+[2025-09-03T17:23:05.452Z] Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:23:05.455Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T17:23:05.461Z] User OTP data: {
+  storedOtp: '505046',
+  expiry: 2025-09-03T17:32:35.369Z,
+  receivedOtp: '297286',
+  isExpired: false
+}
+[2025-09-03T17:23:05.461Z] OTP verification failed: OTP mismatch
+[2025-09-03T17:23:07.246Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '297286' }
+Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:23:07.249Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T17:23:07.250Z] User OTP data: {
+  storedOtp: '505046',
+  expiry: 2025-09-03T17:32:35.369Z,
+  receivedOtp: '297286',
+  isExpired: false
+}
+OTP verification failed: OTP mismatch
+[2025-09-03T17:23:20.138Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '505046' }
+Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:23:20.141Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T17:23:20.142Z] User OTP data: {
+  storedOtp: '505046',
+  expiry: 2025-09-03T17:32:35.369Z,
+  receivedOtp: '505046',
+  isExpired: false
+}
+[2025-09-03T17:23:20.142Z] OTP verified successfully for user: 68b86e0594328abbc699ea2f
+[2025-09-03T17:31:27.812Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+[2025-09-03T17:31:27.812Z] Processing OTP request for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:31:27.815Z] Generated OTP: 675982
+[2025-09-03T17:31:27.816Z] OTP will expire at: Wed Sep 03 2025 23:11:27 GMT+0530 (India Standard Time)
+[2025-09-03T17:31:27.958Z] Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T17:31:28.007Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:31:28.007Z] Sending OTP to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:31:28.009Z] Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:31:31.368Z] Email sent successfully, message ID: <ce1d30ed-3883-f52b-15cf-79af11e3e6af@gmail.com>
+[2025-09-03T17:31:31.368Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:31:56.038Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+Processing OTP request for email: gu6tthzpw8@vwhins.com
+Generated OTP: 381581
+OTP will expire at: Wed Sep 03 2025 23:11:56 GMT+0530 (India Standard Time)
+[2025-09-03T17:31:56.041Z] Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T17:31:56.051Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:31:56.051Z] Sending OTP to gu6tthzpw8@vwhins.com...
+Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:32:00.024Z] Email sent successfully, message ID: <f44ab800-eed4-4cc2-f16d-b86415aa5a37@gmail.com>
+[2025-09-03T17:32:00.025Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:32:22.388Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '381581' }
+[2025-09-03T17:32:22.388Z] Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:32:22.394Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T17:32:22.398Z] User OTP data: {
+  storedOtp: '381581',
+  expiry: 2025-09-03T17:41:56.036Z,
+  receivedOtp: '381581',
+  isExpired: false
+}
+[2025-09-03T17:32:22.399Z] OTP verified successfully for user: 68b86e0594328abbc699ea2f
+[2025-09-03T17:32:47.862Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+[2025-09-03T17:32:47.862Z] Processing OTP request for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:32:47.862Z] Generated OTP: 237798
+[2025-09-03T17:32:47.862Z] OTP will expire at: Wed Sep 03 2025 23:12:47 GMT+0530 (India Standard Time)
+[2025-09-03T17:32:47.865Z] Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T17:32:47.869Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:32:47.870Z] Sending OTP to gu6tthzpw8@vwhins.com...
+Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:32:50.236Z] Email sent successfully, message ID: <87b44e9b-d089-9250-6da2-44bd96364525@gmail.com>
+[2025-09-03T17:32:50.236Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:33:03.886Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '237798' }
+Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:33:03.887Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+[2025-09-03T17:33:03.888Z] User OTP data: {
+  storedOtp: '237798',
+  expiry: 2025-09-03T17:42:47.863Z,
+  receivedOtp: '237798',
+  isExpired: false
+}
+OTP verified successfully for user: 68b86e0594328abbc699ea2f
+[2025-09-03T17:33:43.494Z] Received sendOTP request with body: { email: 'gu6tthzpw8@vwhins.com' }
+Processing OTP request for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:33:43.497Z] Generated OTP: 231878
+OTP will expire at: Wed Sep 03 2025 23:13:43 GMT+0530 (India Standard Time)
+Existing user found with email: gu6tthzpw8@vwhins.com, updating OTP data
+[2025-09-03T17:33:43.499Z] Sending OTP email to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:33:43.499Z] Sending OTP to gu6tthzpw8@vwhins.com...
+Sending email from amityadav841703@gmail.com to gu6tthzpw8@vwhins.com...
+[2025-09-03T17:33:47.197Z] Email sent successfully, message ID: <3d12f4e1-eb55-d079-e41d-388361e95f1b@gmail.com>
+[2025-09-03T17:33:47.198Z] OTP email sent successfully to: gu6tthzpw8@vwhins.com
+[2025-09-03T17:34:01.630Z] Received verifyOTP request with body: { email: 'gu6tthzpw8@vwhins.com', otp: '231878' }
+Verifying OTP for email: gu6tthzpw8@vwhins.com
+[2025-09-03T17:34:01.636Z] User found: 68b86e0594328abbc699ea2f, checking OTP validity
+User OTP data: {
+  storedOtp: '231878',
+  expiry: 2025-09-03T17:43:43.494Z,
+  receivedOtp: '231878',
+  isExpired: false
+}
+OTP verified successfully for user: 68b86e0594328abbc699ea2f
