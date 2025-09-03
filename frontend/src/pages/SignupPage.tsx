@@ -112,7 +112,8 @@ const SignupPage: React.FC = () => {
       sx={{
         display: 'flex',
         height: '100vh',
-        bgcolor: '#ffffff'
+        bgcolor: '#ffffff',
+        fontFamily: "'Inter', sans-serif"
       }}
     >
       <Box
@@ -129,6 +130,7 @@ const SignupPage: React.FC = () => {
           sx={{
             display: 'flex',
             alignItems: 'center',
+            justifyContent: { xs: 'center', sm: 'flex-start' },
             mb: { xs: 2, sm: 3 },
             mt: { xs: 1, sm: 2 }
           }}
@@ -150,7 +152,8 @@ const SignupPage: React.FC = () => {
               ml: 1, 
               fontWeight: 500,
               color: '#000',
-              fontSize: '18px'
+              fontSize: '18px',
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             HD
@@ -163,7 +166,8 @@ const SignupPage: React.FC = () => {
             width: '100%', 
             maxWidth: 350, 
             mx: 'auto', 
-            mt: { xs: 2, sm: 3 } 
+            mt: { xs: 2, sm: 3 },
+            textAlign: { xs: 'center', sm: 'left' }
           }}
         >
           <Typography 
@@ -171,7 +175,8 @@ const SignupPage: React.FC = () => {
             sx={{ 
               fontWeight: 600,
               mb: 1, 
-              fontSize: { xs: '24px', sm: '28px' }
+              fontSize: { xs: '24px', sm: '28px' },
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             Sign up
@@ -183,7 +188,8 @@ const SignupPage: React.FC = () => {
             sx={{ 
               mb: 3,
               fontSize: '14px',
-              opacity: 0.8
+              opacity: 0.8,
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             Sign up to enjoy the feature of HD
@@ -193,114 +199,201 @@ const SignupPage: React.FC = () => {
             <Typography 
               variant="body2" 
               color="error" 
-              sx={{ mb: 2 }}
+              sx={{ mb: 2, fontFamily: "'Inter', sans-serif" }}
             >
               {error}
             </Typography>
           )}
           
           <Box>
-            <Typography 
-              variant="body2" 
-              mb={0.5} 
-              sx={{ 
-                color: 'rgba(0, 0, 0, 0.6)',
-                fontSize: '13px',
-                fontWeight: 400
-              }}
-            >
-              Your Name
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder="Jonas Khanwald"
-              variant="outlined"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              disabled={viewMode === 'otp'}
-              sx={{ 
-                mb: 2,
-                '& .MuiOutlinedInput-root': {
-                  borderRadius: '8px',
-                  fontSize: '15px',
-                }
-              }}
-            />
-            
-            <Typography 
-              variant="body2" 
-              mb={0.5}
-              sx={{ 
-                color: 'rgba(0, 0, 0, 0.6)',
-                fontSize: '13px',
-                fontWeight: 400
-              }}
-            >
-              Date of Birth
-            </Typography>
-            <LocalizationProvider dateAdapter={AdapterDayjs}>
-              <DatePicker
-                value={dob}
-                onChange={(newValue) => setDob(newValue)}
-                disabled={viewMode === 'otp'}
-                sx={{ width: '100%', mb: 2 }}
-                format="DD MMMM YYYY"
-                slots={{
-                  openPickerIcon: CalendarTodayOutlinedIcon
+            {/* Name field */}
+            <Box sx={{ 
+              position: 'relative', 
+              mb: 2.5
+            }}>
+              <Typography 
+                variant="body2" 
+                sx={{ 
+                  color: 'rgba(0, 0, 0, 0.6)',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  position: 'absolute',
+                  top: -8,
+                  left: 10,
+                  zIndex: 1,
+                  backgroundColor: '#fff',
+                  px: 0.5,
+                  fontFamily: "'Inter', sans-serif"
                 }}
-                slotProps={{
-                  textField: {
-                    fullWidth: true,
-                    placeholder: "11 December 1997",
-                    InputProps: {
-                      sx: { 
-                        borderRadius: '8px',
-                        fontSize: '15px'
-                      }
+              >
+                Your Name
+              </Typography>
+              <TextField
+                fullWidth
+                placeholder="Jonas Khanwald"
+                variant="outlined"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                disabled={viewMode === 'otp'}
+                sx={{ 
+                  '& .MuiOutlinedInput-root': {
+                    borderRadius: '8px',
+                    '& fieldset': {
+                      borderColor: '#e0e0e0',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#bbbbbb',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#4285F4',
                     }
+                  },
+                  '& .MuiInputBase-input': {
+                    fontSize: '16px',
+                    fontFamily: "'Inter', sans-serif",
+                    py: 1.5
                   }
                 }}
               />
-            </LocalizationProvider>
+            </Box>
             
-            <Typography 
-              variant="body2" 
-              mb={0.5}
-              sx={{ 
-                color: 'rgba(0, 0, 0, 0.6)',
-                fontSize: '13px',
-                fontWeight: 400
-              }}
-            >
-              Email
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder="jonas_khanwald@gmail.com"
-              variant="outlined"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              disabled={viewMode === 'otp'}
-              sx={{ 
-                mb: 2,
-                '& .MuiOutlinedInput-root': {
-                  borderRadius: '8px',
-                  fontSize: '15px',
-                }
-              }}
-            />
+            {/* Date of Birth field */}
+            <Box sx={{ 
+              position: 'relative', 
+              mb: 2.5
+            }}>
+              <Typography 
+                variant="body2" 
+                sx={{ 
+                  color: 'rgba(0, 0, 0, 0.6)',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  position: 'absolute',
+                  top: -8,
+                  left: 10,
+                  zIndex: 1,
+                  backgroundColor: '#fff',
+                  px: 0.5,
+                  fontFamily: "'Inter', sans-serif"
+                }}
+              >
+                Date of Birth
+              </Typography>
+              <LocalizationProvider dateAdapter={AdapterDayjs}>
+                <DatePicker
+                  value={dob}
+                  onChange={(newValue) => setDob(newValue)}
+                  disabled={viewMode === 'otp'}
+                  sx={{ 
+                    width: '100%'
+                  }}
+                  format="DD MMMM YYYY"
+                  slots={{
+                    openPickerIcon: CalendarTodayOutlinedIcon
+                  }}
+                  slotProps={{
+                    textField: {
+                      variant: 'outlined',
+                      fullWidth: true,
+                      placeholder: "11 December 1997",
+                      sx: {
+                        '& .MuiOutlinedInput-root': {
+                          borderRadius: '8px',
+                          fontFamily: "'Inter', sans-serif",
+                          '& fieldset': {
+                            borderColor: '#e0e0e0',
+                          },
+                          '&:hover fieldset': {
+                            borderColor: '#bbbbbb',
+                          },
+                          '&.Mui-focused fieldset': {
+                            borderColor: '#4285F4',
+                          }
+                        },
+                        '& .MuiInputBase-input': {
+                          fontSize: '16px',
+                          fontFamily: "'Inter', sans-serif",
+                          py: 1.5,
+                          height: '24px' // Match height with other fields
+                        }
+                      }
+                    }
+                  }}
+                />
+              </LocalizationProvider>
+            </Box>
+            
+            {/* Email field */}
+            <Box sx={{ 
+              position: 'relative', 
+              mb: 2.5
+            }}>
+              <Typography 
+                variant="body2" 
+                sx={{ 
+                  color: 'rgba(0, 0, 0, 0.6)',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  position: 'absolute',
+                  top: -8,
+                  left: 10,
+                  zIndex: 1,
+                  backgroundColor: '#fff',
+                  px: 0.5,
+                  fontFamily: "'Inter', sans-serif"
+                }}
+              >
+                Email
+              </Typography>
+              <TextField
+                fullWidth
+                placeholder="jonas_kahnwald@gmail.com"
+                variant="outlined"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                disabled={viewMode === 'otp'}
+                sx={{ 
+                  '& .MuiOutlinedInput-root': {
+                    borderRadius: '8px',
+                    '& fieldset': {
+                      borderColor: '#e0e0e0',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#bbbbbb',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#4285F4',
+                    }
+                  },
+                  '& .MuiInputBase-input': {
+                    fontSize: '16px',
+                    fontFamily: "'Inter', sans-serif",
+                    py: 1.5
+                  }
+                }}
+              />
+            </Box>
 
             {/* OTP field */}
             {viewMode === 'otp' && (
-              <>
+              <Box sx={{ 
+                position: 'relative', 
+                mb: 2.5
+              }}>
                 <Typography 
                   variant="body2" 
-                  mb={0.5}
                   sx={{ 
                     color: 'rgba(0, 0, 0, 0.6)',
                     fontSize: '13px',
-                    fontWeight: 400
+                    fontWeight: 500,
+                    position: 'absolute',
+                    top: -8,
+                    left: 10,
+                    zIndex: 1,
+                    backgroundColor: '#fff',
+                    px: 0.5,
+                    fontFamily: "'Inter', sans-serif"
                   }}
                 >
                   OTP
@@ -312,78 +405,93 @@ const SignupPage: React.FC = () => {
                   value={otp}
                   onChange={(e) => setOtp(e.target.value)}
                   sx={{ 
-                    mb: 2,
                     '& .MuiOutlinedInput-root': {
                       borderRadius: '8px',
-                      fontSize: '15px',
+                      '& fieldset': {
+                        borderColor: '#e0e0e0',
+                      },
+                      '&:hover fieldset': {
+                        borderColor: '#bbbbbb',
+                      },
+                      '&.Mui-focused fieldset': {
+                        borderColor: '#4285F4',
+                      }
+                    },
+                    '& .MuiInputBase-input': {
+                      fontSize: '16px',
+                      fontFamily: "'Inter', sans-serif",
+                      py: 1.5
                     }
                   }}
-                  InputProps={{
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <IconButton
-                          edge="end"
-                          onClick={handleSendOTP}
-                          aria-label="resend otp"
-                          size="small"
-                        >
-                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 2V6" stroke="#4285F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M8 2V6" stroke="#4285F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M3 9H21" stroke="#4285F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M19.5 15.5L17.5 17.5L16 16" stroke="#4285F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M21 12.5V8C21 6.34315 19.6569 5 18 5H6C4.34315 5 3 6.34315 3 8V18C3 19.6569 4.34315 21 6 21H14" stroke="#4285F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                          </svg>
-                        </IconButton>
-                      </InputAdornment>
-                    ),
-                  }}
                 />
-              </>
+              </Box>
             )}
             
-            {/* Main button - Get OTP or Sign Up */}
+            {/* Action buttons */}
             <Button
               fullWidth
               variant="contained"
-              onClick={viewMode === 'form' ? handleSendOTP : handleVerifyOTP}
               disabled={loading}
-              sx={{ 
-                mt: 1, 
-                py: 1.5, 
-                borderRadius: 28,
+              onClick={viewMode === 'form' ? handleSendOTP : handleVerifyOTP}
+              sx={{
+                mt: 2,
+                mb: 2,
+                py: 1.5,
+                borderRadius: 1,
                 bgcolor: '#4285F4',
-                '&:hover': {
-                  bgcolor: '#3367d6',
-                },
+                color: 'white',
                 textTransform: 'none',
                 fontWeight: 500,
-                fontSize: '16px'
+                fontSize: '16px',
+                fontFamily: "'Inter', sans-serif",
+                boxShadow: 'none',
+                '&:hover': {
+                  bgcolor: '#3367d6',
+                  boxShadow: 'none',
+                },
               }}
             >
-              {loading ? 
-                <CircularProgress size={24} color="inherit" /> : 
-                (viewMode === 'form' ? 'Get OTP' : 'Sign up')
-              }
+              {loading ? (
+                <CircularProgress size={24} color="inherit" />
+              ) : viewMode === 'form' ? (
+                'Get OTP'
+              ) : (
+                'Verify OTP'
+              )}
             </Button>
             
-            <Box sx={{ mt: 3, textAlign: 'center' }}>
-              <Typography variant="body2" sx={{ color: 'rgba(0, 0, 0, 0.6)', fontSize: '14px' }}>
+            {/* Sign in link */}
+            <Box 
+              sx={{ 
+                textAlign: 'center',
+                mt: 2 
+              }}
+            >
+              <Typography 
+                variant="body2" 
+                component="span" 
+                sx={{ 
+                  color: 'text.secondary',
+                  fontSize: '14px',
+                  fontFamily: "'Inter', sans-serif" 
+                }}
+              >
                 Already have an account?{' '}
-                <Link
-                  component="button"
-                  variant="body2"
-                  onClick={goToLogin}
-                  sx={{ 
-                    color: '#4285F4',
-                    textDecoration: 'none',
-                    fontWeight: 500,
-                    fontSize: '14px'
-                  }}
-                >
-                  Sign in
-                </Link>
               </Typography>
+              <Link
+                component="button"
+                variant="body2"
+                onClick={goToLogin}
+                sx={{ 
+                  color: '#4285F4',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  fontSize: '14px',
+                  fontFamily: "'Inter', sans-serif"
+                }}
+              >
+                Sign in
+              </Link>
             </Box>
           </Box>
         </Box>

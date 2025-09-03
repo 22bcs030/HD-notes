@@ -92,6 +92,7 @@ const LoginPage: React.FC = () => {
           sx={{
             display: 'flex',
             alignItems: 'center',
+            justifyContent: { xs: 'center', sm: 'flex-start' },
             mb: { xs: 2, sm: 3 },
             mt: { xs: 1, sm: 2 }
           }}
@@ -113,7 +114,8 @@ const LoginPage: React.FC = () => {
               ml: 1, 
               fontWeight: 500,
               color: '#000',
-              fontSize: '18px'
+              fontSize: '18px',
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             HD
@@ -126,7 +128,8 @@ const LoginPage: React.FC = () => {
             width: '100%', 
             maxWidth: 350, 
             mx: 'auto', 
-            mt: { xs: 2, sm: 3 } 
+            mt: { xs: 2, sm: 3 },
+            textAlign: { xs: 'center', sm: 'left' }
           }}
         >
           <Typography 
@@ -134,7 +137,8 @@ const LoginPage: React.FC = () => {
             sx={{ 
               fontWeight: 600,
               mb: 1, 
-              fontSize: { xs: '24px', sm: '28px' }
+              fontSize: { xs: '24px', sm: '28px' },
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             Sign in
@@ -146,7 +150,8 @@ const LoginPage: React.FC = () => {
             sx={{ 
               mb: 3,
               fontSize: '14px',
-              opacity: 0.8
+              opacity: 0.8,
+              fontFamily: "'Inter', sans-serif"
             }}
           >
             Please login to continue to your account
@@ -163,44 +168,76 @@ const LoginPage: React.FC = () => {
           )}
           
           <Box>
-            <Typography 
-              variant="body2" 
-              mb={0.5}
-              sx={{ 
-                color: 'rgba(0, 0, 0, 0.6)',
-                fontSize: '13px',
-                fontWeight: 400
-              }}
-            >
-              Email
-            </Typography>
-            <TextField
-              fullWidth
-              placeholder="your_email@example.com"
-              variant="outlined"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              disabled={viewMode === 'otp'}
-              sx={{ 
-                mb: 2,
-                '& .MuiOutlinedInput-root': {
-                  borderRadius: '8px',
-                  fontSize: '15px',
-                }
-              }}
-            />
+            <Box sx={{ 
+                position: 'relative', 
+                mb: 2.5
+              }}>
+              <Typography 
+                variant="body2" 
+                sx={{ 
+                  color: 'rgba(0, 0, 0, 0.6)',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  position: 'absolute',
+                  top: -8,
+                  left: 10,
+                  zIndex: 1,
+                  backgroundColor: '#fff',
+                  px: 0.5,
+                  fontFamily: "'Inter', sans-serif"
+                }}
+              >
+                Email
+              </Typography>
+              <TextField
+                fullWidth
+                placeholder="your_email@example.com"
+                variant="outlined"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                disabled={viewMode === 'otp'}
+                sx={{ 
+                  '& .MuiOutlinedInput-root': {
+                    borderRadius: '8px',
+                    '& fieldset': {
+                      borderColor: '#e0e0e0',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#bbbbbb',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: '#4285F4',
+                    }
+                  },
+                  '& .MuiInputBase-input': {
+                    fontSize: '16px',
+                    fontFamily: "'Inter', sans-serif",
+                    py: 1.5
+                  }
+                }}
+              />
+            </Box>
             
             {/* OTP field */}
             {viewMode === 'otp' && (
-              <>
+              <Box sx={{ 
+                position: 'relative', 
+                mb: 2.5
+              }}>
                 <Typography 
                   variant="body2" 
-                  mb={0.5}
                   sx={{ 
                     color: 'rgba(0, 0, 0, 0.6)',
                     fontSize: '13px',
-                    fontWeight: 400
+                    fontWeight: 500,
+                    position: 'absolute',
+                    top: -8,
+                    left: 10,
+                    zIndex: 1,
+                    backgroundColor: '#fff',
+                    px: 0.5,
+                    fontFamily: "'Inter', sans-serif"
                   }}
                 >
                   OTP
@@ -212,10 +249,22 @@ const LoginPage: React.FC = () => {
                   value={otp}
                   onChange={(e) => setOtp(e.target.value)}
                   sx={{ 
-                    mb: 2,
                     '& .MuiOutlinedInput-root': {
                       borderRadius: '8px',
-                      fontSize: '15px',
+                      '& fieldset': {
+                        borderColor: '#e0e0e0',
+                      },
+                      '&:hover fieldset': {
+                        borderColor: '#bbbbbb',
+                      },
+                      '&.Mui-focused fieldset': {
+                        borderColor: '#4285F4',
+                      }
+                    },
+                    '& .MuiInputBase-input': {
+                      fontSize: '16px',
+                      fontFamily: "'Inter', sans-serif",
+                      py: 1.5
                     }
                   }}
                   InputProps={{
@@ -239,7 +288,7 @@ const LoginPage: React.FC = () => {
                     ),
                   }}
                 />
-              </>
+              </Box>
             )}
             
             {/* Main button - Get OTP or Sign In */}
@@ -249,16 +298,21 @@ const LoginPage: React.FC = () => {
               onClick={viewMode === 'form' ? handleSendOtp : handleVerifyOtp}
               disabled={loading}
               sx={{ 
-                mt: 1, 
-                py: 1.5, 
-                borderRadius: 28,
+                mt: 2,
+                mb: 2,
+                py: 1.5,
+                borderRadius: 1,
                 bgcolor: '#4285F4',
-                '&:hover': {
-                  bgcolor: '#3367d6',
-                },
+                color: 'white',
                 textTransform: 'none',
                 fontWeight: 500,
-                fontSize: '16px'
+                fontSize: '16px',
+                fontFamily: "'Inter', sans-serif",
+                boxShadow: 'none',
+                '&:hover': {
+                  bgcolor: '#3367d6',
+                  boxShadow: 'none',
+                }
               }}
             >
               {loading ? 
@@ -268,22 +322,31 @@ const LoginPage: React.FC = () => {
             </Button>
             
             <Box sx={{ mt: 3, textAlign: 'center' }}>
-              <Typography variant="body2" sx={{ color: 'rgba(0, 0, 0, 0.6)', fontSize: '14px' }}>
+              <Typography 
+                variant="body2" 
+                component="span" 
+                sx={{ 
+                  color: 'text.secondary',
+                  fontSize: '14px',
+                  fontFamily: "'Inter', sans-serif"
+                }}
+              >
                 Need an account?{' '}
-                <Link
-                  component="button"
-                  variant="body2"
-                  onClick={goToSignup}
-                  sx={{ 
-                    color: '#4285F4',
-                    textDecoration: 'none',
-                    fontWeight: 500,
-                    fontSize: '14px'
-                  }}
+              </Typography>
+              <Link
+                component="button"
+                variant="body2"
+                onClick={goToSignup}
+                sx={{ 
+                  color: '#4285F4',
+                  textDecoration: 'none',
+                  fontWeight: 500,
+                  fontSize: '14px',
+                  fontFamily: "'Inter', sans-serif"
+                }}
                 >
                   Create one
                 </Link>
-              </Typography>
             </Box>
           </Box>
         </Box>
