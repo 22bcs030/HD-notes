@@ -25,6 +25,6 @@ services:
       - key: GOOGLE_CLIENT_SECRET
         sync: false
       - key: FRONTEND_URL
-        value: "https://login-app-vercel.vercel.app"
+        value: "https://hd-notes.vercel.app"
       - key: OTP_EXPIRY
         value: 10
