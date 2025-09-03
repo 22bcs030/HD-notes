@@ -5,9 +5,7 @@ import {
   TextField, 
   Button, 
   CircularProgress,
-  Link,
-  InputAdornment,
-  IconButton
+  Link
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
